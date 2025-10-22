@@ -14,14 +14,14 @@ int main() {
     // Declaração do vetor de structs para armazenar 5 territórios
     struct Territorio territorios[5];
 
-    printf("===== SISTEMA DE CADASTRO DE TERRITÓRIOS");
+    printf("=== SISTEMA DE CADASTRO DE TERRITORIOS - WAR ===\n\n");
 
     // Entrada de dados: cadastro dos 5 territórios
-    printf("====== CADASTRO DE TERRITÓRIOS:\n");
+    printf("CADASTRO DE TERRITORIOS:\n");
     printf("------------------------------");
 
      for (int i = 0; i < 5; i++) {
-        printf("\nTerritorio %d:\n", i + 1);
+        printf("\nTerritorio %d: \n", i + 1);
 
         printf("Digite o nome do território: ");
         scanf("29s", territorios[i].nome);
@@ -39,7 +39,7 @@ int main() {
      };
 
         // Exibição dos dados cadastrados
-        printf("====== TERRITÓRIOS CADASTRADOS:\n");
+        printf("\n\n=== TERRITORIOS CADASTRADOS ===\n");
         printf("------------------------------\n");
 
         for (int i = 0; i < 5; i++) {
